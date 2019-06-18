@@ -1,0 +1,25 @@
+.container {
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: orange;
+    border-bottom: rgb(119, 86, 24) 1px solid;
+    border-top: rgb(119, 86, 24) 1px solid;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(128, 91, 23);
+    color: rgb(34, 128, 235);
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 3em;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(123, 152, 250);
+}
