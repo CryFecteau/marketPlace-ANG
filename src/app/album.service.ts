@@ -12,4 +12,12 @@ export class AlbumService {
   getAlbums(){
     return Albums;
   }
+
+  getAlbum(id: number) {
+    for(let album of Albums) {
+      if(album.id == id) {
+        return album;
+      }
+    }
+  }
 }
