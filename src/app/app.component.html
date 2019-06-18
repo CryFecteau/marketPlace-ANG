@@ -1,5 +1,11 @@
 <div class="container">
-  <!-- making title format for uppercase first letter -->
-  <h1>{{title[0].toUpperCase() + title.substring(1)}}</h1>
-  <router-outlet></router-outlet>
+  <div>
+    <app-header></app-header>
+  </div>
+  <!-- <div>
+    <h1>{{title[0].toUpperCase() + title.substring(1)}}</h1>
+  </div> -->
+  <div>
+    <router-outlet></router-outlet>
+  </div>
 </div>
