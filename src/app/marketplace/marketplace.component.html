@@ -1,3 +1,6 @@
-<p>
-  marketplace works!
-</p>
+<div class="container">
+  <h2>Marketplace</h2>
+  <div *ngFor="let album of albums" (click)="showDetails(album)" class="album">
+    <h4>{{album.title}} by {{album.artist}}</h4>
+  </div>
+</div>
